@@ -1,0 +1,59 @@
+h3{
+    text-align: center;
+}
+h5{
+    margin: 1%;
+}
+.container{
+    background-color:  #21618c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+.container-election {
+    width: 20%;
+    float: left;
+    height: 90vh;
+    background-color:   #9ecff0 ;
+    margin-left: 1%;
+}
+.container-table{
+    width: 80%;
+    float: left;
+    height: 90vh;
+    background-color: white;
+    margin-right: 1%;
+}
+.modules{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F4F0E8;
+    margin: 5%;
+    border-radius: 20%;
+}
+.usuarios{
+    margin: 5%;
+    width:50%;
+    height: 50%;
+}
+.table-container{
+    text-align: center;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+thead{
+    background-color:  #9ecff0 ;
+}
+tbody{
+    background-color: #F4F0E8;
+}

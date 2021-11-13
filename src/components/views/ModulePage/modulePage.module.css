@@ -1,0 +1,32 @@
+.container{
+    background-color:  #21618c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+.modules{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 100% 0% 100% 0% / 15% 86% 14% 85%;
+    padding: 1%;
+}
+.usuarios{
+    width:50%;
+    height: 50%;
+}
+.ventas{
+    width:30%;
+    height: 30%;
+}
+.productos{
+    width:30%;
+    height: 30%;
+}
