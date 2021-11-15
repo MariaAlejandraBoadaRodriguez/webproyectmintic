@@ -2,6 +2,7 @@ import style from './loguinPage.module.css';
 import logostore from './icons/logostore.png';
 import GoogleLogin from 'react-google-login';
 
+
 function loguinPage() {
   const responseGoogle = (response) => {
     console.log(response);

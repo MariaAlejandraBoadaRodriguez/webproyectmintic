@@ -13,6 +13,7 @@ import ProductsformPage from '../views/ProductsformPage';
 import ProductsupgradePage from '../views/ProductsupgradePage';
 import ProductsdeletePage from '../views/ProductsdeletePage';
 
+
 export const views ={
     '/': {view: LoguinPage, name: 'LoguinPage', isPublic: true},
     '/module': {view: ModulePage, name: 'ModulePage', isPublic: true},

@@ -59,8 +59,11 @@ const salesupgradePage = props => {
                                     <p><input type="text" name="nombre"></input></p>
                                     <p>CLIENTE</p>
                                     <p><input type="text" name="nombre"></input></p>
-                                    <p>ID VENDEDOR</p>
-                                    <p><input type="text" name="nombre"></input></p>
+                                    <select name="lista-rol">
+                                        <option value="1">En proceso</option>
+                                        <option value="1">Cancelada</option>
+                                        <option value="2">Entregada</option>
+                                    </select>
                                     <p>VENDEDOR</p>
                                     <p><input type="text" name="nombre"></input></p>
                                 </form>

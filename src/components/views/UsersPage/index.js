@@ -5,6 +5,11 @@ import eliminar from './icon/eliminar.png';
 import actualizar from './icon/actualizar.png';
 import {Link} from 'react-router-dom';
 
+/*window.onload = function () 
+{
+   
+}*/
+
 const usersPage = props => {
     return (
         <div className={styles.container}>
@@ -33,7 +38,7 @@ const usersPage = props => {
                 </div>
             </div>
             <div className={styles['container-table']}>
-                <h3>USUARIOS</h3>
+                <h3 id='titulo'>USUARIOS</h3>
                 <table className={styles['table-container']}>
                     <thead>
                         <tr>
@@ -46,17 +51,7 @@ const usersPage = props => {
                             <th>TELEFONO</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>1234</td>
-                            <td>Pendiente</td>
-                            <td>Vendedor</td>
-                            <td>MARIA ALEJANDRA</td>
-                            <td>194638883</td>
-                            <td>CARRERA 20#45-56</td>
-                            <td>3228564738</td>
-                        </tr>
-                    </tbody>
+                    <tbody id='infousuarios'></tbody>
                 </table>
             </div>
         </div>
