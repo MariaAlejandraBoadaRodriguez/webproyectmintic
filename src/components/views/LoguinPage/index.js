@@ -1,6 +1,7 @@
 import style from './loguinPage.module.css';
 import logostore from './icons/logostore.png';
 import GoogleLogin from 'react-google-login';
+import {Link} from 'react-router-dom';
 
 
 function loguinPage() {
@@ -28,7 +29,7 @@ function loguinPage() {
               </div>
             </div>
             <form className={style['inputs-container']}>
-              <h5>Olvidaste la Contraseña? <span className={style.span}>Click here</span></h5>
+              <Link to='/module'>Siguiente</Link>
             </form>
           </div>
       </header>
