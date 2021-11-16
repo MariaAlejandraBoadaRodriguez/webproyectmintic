@@ -5,7 +5,7 @@ import eliminar from './icon/eliminar.png';
 import actualizar from './icon/actualizar.png';
 import {Link} from 'react-router-dom';
 
-window.onload = function(){
+/*window.onload = function(){
     if(document.getElementById('titulo').innerHTML!=undefined){
      if(document.getElementById('titulo').innerHTML=='PRODUCTOS'){
         fetch("http://localhost:5000/productos")
@@ -76,7 +76,7 @@ window.onload = function(){
         })
     }
 }
-}
+}*/
 
 
 

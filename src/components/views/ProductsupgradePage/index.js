@@ -47,11 +47,8 @@ const productsupgradePage = props => {
                                 <p>CANTIDAD</p>
                                 <p><input type="number" name="idproducto"></input></p>
                                 <p>ESTADO</p>
-                                <select name="lista-rol">
-                                    <option value="1">Seleccione el Estado</option>
-                                    <option value="1">Disponible</option>
-                                    <option value="2">Agotado</option>
-                                </select>
+                                <p><input type="number" name="idproducto"></input></p>
+                                <p>ROL</p>
                             </td>
                         </tr>
                         <tr>
