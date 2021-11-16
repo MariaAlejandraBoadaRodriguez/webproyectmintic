@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+¡Hola, Nosotros somos "Reptileans DevGroup"!
+Este repositorio fue creado para almacenar toda la programacion relacionada a la habilitacion para el ciclo 3 de MisionTic 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
